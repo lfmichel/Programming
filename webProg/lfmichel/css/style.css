@@ -1,0 +1,116 @@
+/*Minha primeira css */ 
+
+/* TAGS */
+p{
+    color:#ffffff;
+    font-size: 15px;
+    font-family: Helvetica;
+    text-shadow: 1px 1px 1px #111111
+}
+
+body{
+    background-color: white;
+}
+
+/* "*' Aplica Pagina Inteira */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial;
+}
+
+header{
+    background-color: black;
+    height: 60px;
+}
+
+footer{
+    clear: both;
+    background-color: black;
+    height: 10px;
+    text-align: center;
+    padding: 05px;
+}
+
+h1{
+    color: white;
+    font-size:50px;
+    text-shadow: 2px 2px 2px #111111;
+    text-align: left;
+    padding: 0 0 1px 0;
+}
+
+h6{
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+    text-align: left;
+    padding: 0 0 1px 0;
+}
+
+/* IDS */
+#principal{
+    clear: both;
+    background-size: 100%;
+    min-height: 530px;
+    padding: 40px 0 0 0;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    margin-top: 20px;
+    float: right;
+}
+
+#menu a{
+    padding: 05px 05px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+}
+
+#menu a:hover{
+    background: #111;
+    color: #35b8b0;
+}
+
+/* id para div esquerda */
+#div_esquerda{
+    background-color: blue;
+    min-height: 200px;
+    width: 50%;
+    float: left; /* Define o lado da div no container */
+    border-color: #35b8b0;
+}
+
+/* id para div direita */
+#div_direita{
+    background-color: yellow;
+    min-height: 200px;
+    width: 30%;
+    float: right; /* Define o lado da div no container */
+}
+
+/* CLASS */
+.container{
+    width: 960px;
+    margin:0px auto;
+    border-color: #FF7F50;
+}
+
+.linha{
+    /*clear: both;*/
+    background-size: 100%;
+    /*min-height: 530px;*/
+    padding: 40px 0 0 0;
+    
+    margin:0px auto;
+}
+
+/* Efeito de faixa transparente */ 
+.efeito{
+    background-color: rgba(0, 0, 0, 0.5 );
+    padding: 100px 0 100px;
+}
